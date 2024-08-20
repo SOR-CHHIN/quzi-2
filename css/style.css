@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    justify-content: center;
+}
+.container{
+    background-color: wheat;
+}
+.main-content{
+    display: flex;
+    flex: 2;
+    
+    
+}
+.main{
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    width: 100%;
+  
+  
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 26%;
+    margin: 10px;
+    height: 20vh;
+    margin-left: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.192);
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+.sidebar{
+    background-color: rgba(128, 128, 128, 0.685);
+    width: 40%;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.562);
+    color: white;
+    justify-content: center;
+}
